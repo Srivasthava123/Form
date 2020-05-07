@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/42/15/glitch-background-digital-image-data-vector-14254215.jpg);
+    background-size: cover;
+}
+.form{
+    background: #000;
+    z-index: 1;
+    font-family: "candara", sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    transform: translate(-50% -50%);
+    width: 300px;
+    height: 550px;
+    padding: 0 45px 30px 45px;
+    text-align: center;
+    border-radius: 15px;
+    opacity: 0.7;
+}
+.form h2{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 1000;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form .icons i{
+    color: #fff;
+    font-size: 25px;
+    margin: 0 30px 40px 30px;
+    transition: 0.5s;
+    transition-property: color, transform;
+}
+.form .icons i:hover{
+    color: #00cca3;      
+    transform: scale(1.6);
+}
+.form input{
+    outline: 0;
+    background: none;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    width: 270px;
+    margin-bottom: 35px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2.5px solid #00cca3;
+    border-radius: 30px;
+    transition: 0.5s;
+    transition-property: transform;
+}
+.form input:hover{
+    transform: scale(1.1);
+}
+.form button{
+    outline: 0;
+    background: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 150px;
+    padding: 15px;
+    border: 3.0px solid #00cca3;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.form button:hover{
+    background: #00cca3;
+    transform: scale(1.1);
+}
+.form .options{
+    color: #fff;
+    font-size: 15px;
+    margin: 20px 0 0;
+}
+.form .options a{
+    text-decoration: none;
+    color: #00cca3;
+}
